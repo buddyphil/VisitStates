@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="my_css.css">
+</head>
+
+<body>
+
+<!--Display States for adding  to Visited List-->
+<div class="div1" id="add_div"> 
+	<h2>Fancy yourself a traveller?</h2>
+	<h3>How many states in the US have you been to?</h3>
+	<p>Add the states you've visited. </p>
+	<select id="stateslist">
+		<option value="Select A State">Select A State</option>
+	</select>
+	<p> </p>
+	<button type="submit" id="astate">Add State!</button> 
+</div>
+
+<div id="lower_display" class="hidden">
+	<!--dislpay of states visited-->
+	<div id="dis_div">  
+		<p>Not bad! You've already been to:</p>
+		<!-- Dislpay of States Visited-->
+		<div class="columns"> 
+			<ul id="visitedTable"> 
+				
+			</ul>
+		</div>
+	</div>
+	<br>
+	<!--Remove a State from the Visisted List-->
+<div class="div1" id="rem_div"> 
+	<p>Did you add the wrong state by accident?</p><br>
+	<p>Remove </p>
+	<select id="removelist">
+		<option value="Remove A State">Select A State</option>
+	</select>
+	<p>from the list.<p>
+	<button type="submit" id="rstate" >Remove State!</button> 
+	<br> <br>
+	<button type="submit" id="cstates" >Or Clear Them All!</button> 
+</div>
+
+</div>
+
+</body>
+<div class="foot">
+	<a href="http://projects.philparisoe.com">Back to Project List</a>
+</div>
+</html>

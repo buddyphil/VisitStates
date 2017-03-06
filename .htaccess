@@ -1,0 +1,7 @@
+#--- DH-PHP handlers ---
+AddHandler fastcgi-script fcg fcgi fpl
+AddHandler php-fastcgi .php
+Action php-fastcgi /cgi-bin/dispatch.fcgi
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>

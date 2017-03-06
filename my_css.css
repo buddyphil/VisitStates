@@ -1,0 +1,58 @@
+body {
+	font-family: "Garamond", serif;
+	color: #002244;
+    margin: auto;
+    width: 70%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+ul{
+ 	columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+	column-count:2;
+    list-style-position: inside;
+}
+
+a:link, a:visited {
+	background-color: #ccccbb;
+	color: #002244;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 15px;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: #ddddcc;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.columns {
+	overflow: auto;
+	max-height: 110px;
+	width: 30%;
+	margin: auto;
+}
+
+.div1 p {
+	display: inline;
+}
+
+.foot {
+	position: fixed;
+	bottom: 25px;
+	right: 10px;
+	width: 200px;
+}
